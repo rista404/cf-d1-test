@@ -4,13 +4,8 @@ type Bindings = {
 	DB: D1Database;
 };
 
-type Variables = {
-	API_KEY: string;
-};
-
 type Env = {
 	Bindings: Bindings;
-	Variables: Variables;
 };
 
 const app = new Hono<Env>();

@@ -6,6 +6,3 @@ compatibility_date = "2023-12-18"
 binding = "DB" # env.DB
 database_name = "test-db-api"
 database_id = "3f459068-cf85-49f7-9cd0-de7f9768ccee"
-
-[vars]
-API_KEY = "<TEST_API_KEY>"
