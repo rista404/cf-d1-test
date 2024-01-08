@@ -45,3 +45,5 @@ app.post('/api/posts/:slug/comments', async (c) => {
 		return c.text('Something went wrong');
 	}
 });
+
+export default app;
